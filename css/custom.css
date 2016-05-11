@@ -11,6 +11,10 @@ p, div {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .sec-title {
   font-weight: 300;
   color: #fff;
@@ -23,9 +27,13 @@ p, div {
   padding-top: .45rem;
 }
 
+.navbar {
+  background-color: #000;
+}
+
 /*Hero banner*/
 
-.jumbotron {
+.hero .jumbotron {
   background: url('../img/home_bg.jpg');
   background-size: cover;
   /*background-attachment: fixed;*/
@@ -34,12 +42,12 @@ p, div {
   height: 100vh;
 }
 
-.jumbotron .display-3 {
+.hero .jumbotron .display-3 {
   font-size: 60px;
   line-height: 80px;
 }
 
-.jumbotron .lead {
+.hero .jumbotron .lead {
   font-size: 19px;
   line-height: 32px;
   color: #9B9B9B;
@@ -60,12 +68,48 @@ p, div {
 
 /*projects*/
 
-
 .card {
   border: 0px;
   border-radius: 0px;
+  background-color: #000000;
 }
 
 .card-img {
   border-radius: 0px;
+}
+
+
+
+.card-title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+
+}
+
+
+
+
+
+
+/*Footer*/
+
+.footer .jumbotron {
+  background-color: #000;
+}
+
+.footer .jumbotron .contact {
+  color: #9B9B9B;
+  font-weight: 300;
+}
+
+.footer .jumbotron .lead a  {
+  color: #fff;
+  font-weight: 300;
+
+}
+
+.footer {
+  padding-top: 130px;
+  padding-bottom: 130px;
 }
