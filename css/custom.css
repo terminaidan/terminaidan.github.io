@@ -1,7 +1,7 @@
 /*global*/
 
 body {
-    background-color: #000000 !important;
+    background-color: #000b16 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,7 +28,7 @@ a {
 }
 
 .navbar {
-  background-color: #000;
+  background-color: #000b16;
 }
 
 /*Hero banner*/
@@ -78,10 +78,14 @@ a {
   border-radius: 0px;
 }
 
-
-
 .card-title {
   font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card .card-sub-title {
+  font-size: 18px;
   font-weight: 300;
   color: #fff;
 }
@@ -89,7 +93,7 @@ a {
 /*Footer*/
 
 .footer .jumbotron {
-  background-color: #000;
+  background-color: #000b16;
 }
 
 .footer .jumbotron .contact {
