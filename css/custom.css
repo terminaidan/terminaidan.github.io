@@ -66,6 +66,14 @@ a {
   align-items: center;
 }
 
+/*Hero banner small*/
+
+.hero .jumbotron .title-small {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 300;
+}
+
 /*projects*/
 
 .card {
