@@ -31,7 +31,7 @@ a {
   background-color: #000b16;
 }
 
-/*Hero banner*/
+/*Hero banner home*/
 
 .hero .jumbotron {
   background: url('../img/home_bg.jpg');
@@ -64,6 +64,17 @@ a {
 
   display: flex;
   align-items: center;
+}
+
+/*Hero banner About*/
+
+.hero .jumbotron .about {
+  background: url('../img/about_bg.jpg');
+  background-size: cover;
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
 }
 
 /*Hero banner small*/
