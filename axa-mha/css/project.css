@@ -47,7 +47,7 @@ a {
 .hero .jumbotron {
    background: url('../img/axa_proj.png');
    background-size: cover;
-   /*background-attachment: fixed;*/
+   background-attachment: fixed;
    background-repeat: no-repeat;
    background-position: center center;
    height: 60vh;
